@@ -1,0 +1,77 @@
+{
+  "uid" : "ce4fd1b92bc4ce58",
+  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
+  "fullName" : "test_login.TestLogin#test_login",
+  "historyId" : "bba56c56b3f1b02ba36627d4c0fd3c7f",
+  "time" : {
+    "start" : 1611055623674,
+    "stop" : 1611055623864,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "Login(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "异常账户登陆"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "7520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"error\": \"invalid_grant\",\"error_description\": \"Bad credentials\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Login(order=1)", "异常账户登陆" ]
+  },
+  "source" : "ce4fd1b92bc4ce58.json",
+  "parameterValues" : [ "'{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}'", "'{\"error\": \"invalid_grant\",\"error_description\": \"Bad credentials\"}'" ]
+}

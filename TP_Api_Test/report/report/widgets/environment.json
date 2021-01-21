@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "TransPaas" ],
+  "name" : "Project"
+}, {
+  "values" : [ "FengJianWei" ],
+  "name" : "Author"
+}, {
+  "values" : [ "http://transpaas-test.sutpc.com" ],
+  "name" : "HOST"
+}, {
+  "values" : [ "3.9" ],
+  "name" : "Python.Version"
+} ]

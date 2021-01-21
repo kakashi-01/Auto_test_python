@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "KeyError: 'error'",
+      "children" : [ {
+        "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
+        "uid" : "79be1bf089f03bc4",
+        "parentUid" : "a404fb61b87aa6131503498a6b7a96b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611055623030,
+          "stop" : 1611055623331,
+          "duration" : 301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}'", "'{\"token_type\":\"bearer\",\"expires_in\": 35999,\"scope\": \"all\",\"uid\": \"3b72468c8a60488d8258a9b2033b4baa\"}'" ]
+      } ],
+      "uid" : "a404fb61b87aa6131503498a6b7a96b8"
+    }, {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: '../report/test.jpg'",
+      "children" : [ {
+        "name" : "test_login_image",
+        "uid" : "6338e538e04142e3",
+        "parentUid" : "fe8833242fcf5505c0072f70e5cc9e89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611055624265,
+          "stop" : 1611055624265,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe8833242fcf5505c0072f70e5cc9e89"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

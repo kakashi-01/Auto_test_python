@@ -1,0 +1,122 @@
+{
+  "uid" : "72567d4aff406983",
+  "name" : "测试输入：{\"treeNodeIds\":\"1,645,678,694,696,697\"}",
+  "fullName" : "test_Data_Index.TestDataIndex#test_Export_metadata",
+  "historyId" : "231028fd1f1bd8811d3a3de7d073a404",
+  "time" : {
+    "start" : 1611055622717,
+    "stop" : 1611055622832,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611055621807,
+      "stop" : 1611055622107,
+      "duration" : 300
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611055621808,
+        "stop" : 1611055622107,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611055624315,
+      "stop" : 1611055624315,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "story",
+    "value" : "数据指数接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "数据指数模块"
+  }, {
+    "name" : "tag",
+    "value" : "元数据导出"
+  }, {
+    "name" : "tag",
+    "value" : "Data_Index(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_Data_Index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataIndex"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "7520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Data_Index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"treeNodeIds\":\"1,645,678,694,696,697\"}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\":\"200\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "元数据导出", "Data_Index(order=2)" ]
+  },
+  "source" : "72567d4aff406983.json",
+  "parameterValues" : [ "'{\"treeNodeIds\":\"1,645,678,694,696,697\"}'", "'{\"code\":\"200\"}'" ]
+}

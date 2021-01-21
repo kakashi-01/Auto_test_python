@@ -1,0 +1,122 @@
+{
+  "uid" : "ad12719d85f33dd7",
+  "name" : "测试输入：{\"order\":1,\"page\":0,\"size\":12}",
+  "fullName" : "test_Algorithm_Tool.TestAlgTool#test_Alg_supermarket",
+  "historyId" : "cdaf7dd6664ab25de0550e1e3e7e5c43",
+  "time" : {
+    "start" : 1611055622203,
+    "stop" : 1611055622228,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611055621807,
+      "stop" : 1611055622107,
+      "duration" : 300
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611055621808,
+        "stop" : 1611055622107,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611055624315,
+      "stop" : 1611055624315,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "算法工具模块"
+  }, {
+    "name" : "story",
+    "value" : "算法工具接口"
+  }, {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "Algorithm_Tool(order=3)"
+  }, {
+    "name" : "tag",
+    "value" : "算法超市列表"
+  }, {
+    "name" : "suite",
+    "value" : "test_Algorithm_Tool"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAlgTool"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "7520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Algorithm_Tool"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"order\":1,\"page\":0,\"size\":12}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\":\"200\",\"msg\":\"success\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Algorithm_Tool(order=3)", "算法超市列表" ]
+  },
+  "source" : "ad12719d85f33dd7.json",
+  "parameterValues" : [ "'{\"order\":1,\"page\":0,\"size\":12}'", "'{\"code\":\"200\",\"msg\":\"success\"}'" ]
+}

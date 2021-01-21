@@ -1,0 +1,122 @@
+{
+  "uid" : "1574ead3e1a31048",
+  "name" : "测试输入：{\"rid\":\"7929dabb24cbfff42b58231111a75ce4\"}",
+  "fullName" : "test_Algorithm_Tool.TestAlgTool#test_Get_algorithm",
+  "historyId" : "663f1c90b0fc5922438e080f0a8a6064",
+  "time" : {
+    "start" : 1611055622159,
+    "stop" : 1611055622179,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611055621807,
+      "stop" : 1611055622107,
+      "duration" : 300
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611055621808,
+        "stop" : 1611055622107,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611055624315,
+      "stop" : 1611055624315,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "算法工具模块"
+  }, {
+    "name" : "story",
+    "value" : "算法工具接口"
+  }, {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "获取算法函数"
+  }, {
+    "name" : "tag",
+    "value" : "Algorithm_Tool(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_Algorithm_Tool"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAlgTool"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "7520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Algorithm_Tool"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"rid\":\"7929dabb24cbfff42b58231111a75ce4\"}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\":\"200\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Algorithm_Tool(order=3)", "获取算法函数" ]
+  },
+  "source" : "1574ead3e1a31048.json",
+  "parameterValues" : [ "'{\"rid\":\"7929dabb24cbfff42b58231111a75ce4\"}'", "'{\"code\":\"200\"}'" ]
+}

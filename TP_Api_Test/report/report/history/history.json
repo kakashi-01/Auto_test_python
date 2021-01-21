@@ -1,0 +1,328 @@
+{
+  "6682db9c997cad5975b86594257ed4c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ab3432226a72e08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622107,
+        "stop" : 1611055622127,
+        "duration" : 20
+      }
+    } ]
+  },
+  "2ad478eaa47455de675d55e9e7a2e491" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73e1dd687b251727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622130,
+        "stop" : 1611055622156,
+        "duration" : 26
+      }
+    } ]
+  },
+  "daff73e6e003760119b8b03ae3736364" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4bbf9596ec51345",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622182,
+        "stop" : 1611055622200,
+        "duration" : 18
+      }
+    } ]
+  },
+  "663f1c90b0fc5922438e080f0a8a6064" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1574ead3e1a31048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622159,
+        "stop" : 1611055622179,
+        "duration" : 20
+      }
+    } ]
+  },
+  "e761d27101e3f134d313ea1a382f42f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81ffb2f0f23e4048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622231,
+        "stop" : 1611055622480,
+        "duration" : 249
+      }
+    } ]
+  },
+  "08dc0175fade5c092a303fa05e56698a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b380177cd57ede1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055624062,
+        "stop" : 1611055624262,
+        "duration" : 200
+      }
+    } ]
+  },
+  "325003f6fab02e9b940c24b0090394a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6c3ac376a6ec7b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055623570,
+        "stop" : 1611055623670,
+        "duration" : 100
+      }
+    } ]
+  },
+  "10698cce4acdd153c79b8fd89f8cfa2b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3f68c16dfb7cb93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622485,
+        "stop" : 1611055622714,
+        "duration" : 229
+      }
+    } ]
+  },
+  "8a288898589a030838c6affe7f44321d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b81bf7227bfb7779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622835,
+        "stop" : 1611055623026,
+        "duration" : 191
+      }
+    } ]
+  },
+  "6e45e10756a7bbc3dc1b6756b77c39d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79be1bf089f03bc4",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'error'",
+      "time" : {
+        "start" : 1611055623030,
+        "stop" : 1611055623331,
+        "duration" : 301
+      }
+    } ]
+  },
+  "d1c4c8ac7fb6d9ac2091a526b3ca5239" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "702003289b4c506c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055623868,
+        "stop" : 1611055624059,
+        "duration" : 191
+      }
+    } ]
+  },
+  "58723ec5147528dbe95a3421fe189222" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6338e538e04142e3",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '../report/test.jpg'",
+      "time" : {
+        "start" : 1611055624265,
+        "stop" : 1611055624265,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cdaf7dd6664ab25de0550e1e3e7e5c43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad12719d85f33dd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622203,
+        "stop" : 1611055622228,
+        "duration" : 25
+      }
+    } ]
+  },
+  "76f51a8039a7206bfca393af8e024589" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77299be81248426b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055623466,
+        "stop" : 1611055623566,
+        "duration" : 100
+      }
+    } ]
+  },
+  "bba56c56b3f1b02ba36627d4c0fd3c7f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce4fd1b92bc4ce58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055623674,
+        "stop" : 1611055623864,
+        "duration" : 190
+      }
+    } ]
+  },
+  "231028fd1f1bd8811d3a3de7d073a404" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72567d4aff406983",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611055622717,
+        "stop" : 1611055622832,
+        "duration" : 115
+      }
+    } ]
+  },
+  "c32d3251f5c9c4a06e351a755be88d41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4185444d004aec3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 需要先删除已有数据才可保存成功",
+      "time" : {
+        "start" : 1611055622483,
+        "stop" : 1611055622483,
+        "duration" : 0
+      }
+    } ]
+  }
+}
