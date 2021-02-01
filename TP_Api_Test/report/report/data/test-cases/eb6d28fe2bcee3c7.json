@@ -1,0 +1,122 @@
+{
+  "uid" : "eb6d28fe2bcee3c7",
+  "name" : "测试输入：{\"page\":\"0\",\"size\":\"999\",\"receiver\":\"13422886337\",\"type\":\"HIVE_TASK_ALGO\",\"read\":\"false\"}",
+  "fullName" : "test_Algorithm_Tool.TestAlgTool#test_Task_query",
+  "historyId" : "6682db9c997cad5975b86594257ed4c8",
+  "time" : {
+    "start" : 1611911881738,
+    "stop" : 1611911881760,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611911881438,
+      "stop" : 1611911881737,
+      "duration" : 299
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611911881438,
+        "stop" : 1611911881737,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611911884311,
+      "stop" : 1611911884311,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "算法工具模块"
+  }, {
+    "name" : "story",
+    "value" : "算法工具接口"
+  }, {
+    "name" : "tag",
+    "value" : "任务队列查询"
+  }, {
+    "name" : "tag",
+    "value" : "Algorithm_Tool(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_Algorithm_Tool"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAlgTool"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "15012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Algorithm_Tool"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"page\":\"0\",\"size\":\"999\",\"receiver\":\"13422886337\",\"type\":\"HIVE_TASK_ALGO\",\"read\":\"false\"}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\":\"200\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Algorithm_Tool(order=3)", "任务队列查询" ]
+  },
+  "source" : "eb6d28fe2bcee3c7.json",
+  "parameterValues" : [ "'{\"page\":\"0\",\"size\":\"999\",\"receiver\":\"13422886337\",\"type\":\"HIVE_TASK_ALGO\",\"read\":\"false\"}'", "'{\"code\":\"200\"}'" ]
+}

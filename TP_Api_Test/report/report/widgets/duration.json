@@ -1,170 +1,300 @@
 [ {
-  "uid" : "e6c3ac376a6ec7b5",
-  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2021\",\"imageCode\":\"9527\"}",
+  "uid" : "60667c2f9aa044e0",
+  "name" : "测试输入：{\"username\":\"17688701459\",\"password\":\"Sutpc@2020\",\"checkPassword\":\"Sutpc@2020\",\"cname\":\"冯建伟\",\"mail\":\"fengjianwei@sutpc.com\",\"phone\":\"17688701458\"}",
   "time" : {
-    "start" : 1611055623570,
-    "stop" : 1611055623670,
-    "duration" : 100
+    "start" : 1611911883190,
+    "stop" : 1611911883196,
+    "duration" : 6
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "8ab3432226a72e08",
-  "name" : "测试输入：{\"page\":\"0\",\"size\":\"999\",\"receiver\":\"13422886337\",\"type\":\"HIVE_TASK_ALGO\",\"read\":\"false\"}",
+  "uid" : "84f7d744a23c7a7c",
+  "name" : "测试输入：",
   "time" : {
-    "start" : 1611055622107,
-    "stop" : 1611055622127,
-    "duration" : 20
+    "start" : 1611911883215,
+    "stop" : 1611911883220,
+    "duration" : 5
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "ce4fd1b92bc4ce58",
-  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
+  "uid" : "1a779aca6180f265",
+  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"\",\"imageCode\":\"9527\"}",
   "time" : {
-    "start" : 1611055623674,
-    "stop" : 1611055623864,
-    "duration" : 190
+    "start" : 1611911883515,
+    "stop" : 1611911883618,
+    "duration" : 103
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "6338e538e04142e3",
-  "name" : "test_login_image",
+  "uid" : "6452cda12f40bb97",
+  "name" : "测试输入：{\"treeDataId\":1}",
   "time" : {
-    "start" : 1611055624265,
-    "stop" : 1611055624265,
-    "duration" : 0
+    "start" : 1611911883175,
+    "stop" : 1611911883188,
+    "duration" : 13
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "c4185444d004aec3",
+  "uid" : "d99d7be0e4e22887",
   "name" : "测试输入：{\"title\":\"xx\",\"titleEn\":\"task_balabla2\",\"layer\":\"010100\",\"parentId\":1662,\"treeType\":\"PERSONAGE\",\"createdBy\":\"XXX\",\"linkKey\":\"3f3ba3e0-3b4c-49dd-b02a-84ab26c132a4\"}",
   "time" : {
-    "start" : 1611055622483,
-    "stop" : 1611055622483,
+    "start" : 1611911882094,
+    "stop" : 1611911882094,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "critical"
 }, {
-  "uid" : "b81bf7227bfb7779",
-  "name" : "测试输入：{\"indexTypeId\":\"987\"}",
-  "time" : {
-    "start" : 1611055622835,
-    "stop" : 1611055623026,
-    "duration" : 191
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "c3f68c16dfb7cb93",
-  "name" : "测试输入：{\"name\":\"行人特征表_2021年1月13日16时8分57秒\",\"ext\":\"csv\"}",
-  "time" : {
-    "start" : 1611055622485,
-    "stop" : 1611055622714,
-    "duration" : 229
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "1574ead3e1a31048",
-  "name" : "测试输入：{\"rid\":\"7929dabb24cbfff42b58231111a75ce4\"}",
-  "time" : {
-    "start" : 1611055622159,
-    "stop" : 1611055622179,
-    "duration" : 20
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "73e1dd687b251727",
+  "uid" : "8393e67dd718ac34",
   "name" : "测试输入：{\"script\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nprint(\\\"ou ha yo\\\")\"}",
   "time" : {
-    "start" : 1611055622130,
-    "stop" : 1611055622156,
-    "duration" : 26
+    "start" : 1611911881763,
+    "stop" : 1611911881791,
+    "duration" : 28
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "ad12719d85f33dd7",
-  "name" : "测试输入：{\"order\":1,\"page\":0,\"size\":12}",
+  "uid" : "8bc11dea64ae4484",
+  "name" : "测试输入：{\"size\":\"10\",\"page\":\"0\"}",
   "time" : {
-    "start" : 1611055622203,
-    "stop" : 1611055622228,
-    "duration" : 25
+    "start" : 1611911882600,
+    "stop" : 1611911882613,
+    "duration" : 13
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "702003289b4c506c",
-  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"\",\"imageCode\":\"9527\"}",
+  "uid" : "eb6d28fe2bcee3c7",
+  "name" : "测试输入：{\"page\":\"0\",\"size\":\"999\",\"receiver\":\"13422886337\",\"type\":\"HIVE_TASK_ALGO\",\"read\":\"false\"}",
   "time" : {
-    "start" : 1611055623868,
-    "stop" : 1611055624059,
-    "duration" : 191
+    "start" : 1611911881738,
+    "stop" : 1611911881760,
+    "duration" : 22
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "77299be81248426b",
-  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"\",\"imageCode\":\"9527\"}",
+  "uid" : "79781c8dff34d078",
+  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701450\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
   "time" : {
-    "start" : 1611055623466,
-    "stop" : 1611055623566,
+    "start" : 1611911884113,
+    "stop" : 1611911884309,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4eb5b7e900e3a3e0",
+  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2021\",\"imageCode\":\"9527\"}",
+  "time" : {
+    "start" : 1611911883621,
+    "stop" : 1611911883721,
     "duration" : 100
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "79be1bf089f03bc4",
-  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
+  "uid" : "47e84994131f690a",
+  "name" : "测试输入：{\"fname\": \"测试组\",\"description\": \"系统管理员\"}",
   "time" : {
-    "start" : 1611055623030,
-    "stop" : 1611055623331,
-    "duration" : 301
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "81ffb2f0f23e4048",
-  "name" : "测试输入：{\"sql\":\"SELECT * FROM t_vai_pedestrian_feature LIMIT 100\",\"isCn\":\"True\"}",
-  "time" : {
-    "start" : 1611055622231,
-    "stop" : 1611055622480,
-    "duration" : 249
+    "start" : 1611911883207,
+    "stop" : 1611911883212,
+    "duration" : 5
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "9b380177cd57ede1",
-  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701450\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
+  "uid" : "d65f2d19e232240b",
+  "name" : "测试输入：",
   "time" : {
-    "start" : 1611055624062,
-    "stop" : 1611055624262,
-    "duration" : 200
+    "start" : 1611911882661,
+    "stop" : 1611911882753,
+    "duration" : 92
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "72567d4aff406983",
-  "name" : "测试输入：{\"treeNodeIds\":\"1,645,678,694,696,697\"}",
-  "time" : {
-    "start" : 1611055622717,
-    "stop" : 1611055622832,
-    "duration" : 115
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "b4bbf9596ec51345",
+  "uid" : "fcd186e60473a5db",
   "name" : "测试输入：{\"id\":441,\"title\":\"test05\",\"type\":\"test\",\"content\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nimport pandas as pd\\n\\ndf = pd.DataFrame({'Animal': ['Falcon', 'Falcon', 'Parrot', 'Parrot'], 'Max Speed': [380, 370, 24, 26.]})\\n\\nprint(df.groupby(['Animal']).mean())\",\"createdBy\":\"13422886337\",\"createdDate\":\"2020-08-21 19:19:59\",\"label\":\"test05\",\"nodeType\":\"model\"}",
   "time" : {
-    "start" : 1611055622182,
-    "stop" : 1611055622200,
+    "start" : 1611911881820,
+    "stop" : 1611911881839,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "83401f3c8ed90e1b",
+  "name" : "测试输入：{\"size\":\"10\",\"page\":\"0\"}",
+  "time" : {
+    "start" : 1611911882615,
+    "stop" : 1611911882638,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fdd8d6f55dc5c9b1",
+  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
+  "time" : {
+    "start" : 1611911883223,
+    "stop" : 1611911883512,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5e494328cb6c1a65",
+  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"\",\"imageCode\":\"9527\"}",
+  "time" : {
+    "start" : 1611911883919,
+    "stop" : 1611911884110,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d2226ef577719003",
+  "name" : "测试输入：{\"name\":\"行人特征表_2021年1月13日16时8分57秒\",\"ext\":\"csv\"}",
+  "time" : {
+    "start" : 1611911882096,
+    "stop" : 1611911882326,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "19f5be5735f8e25d",
+  "name" : "测试输入：{\"sql\":\"SELECT * FROM t_vai_pedestrian_feature LIMIT 100\",\"isCn\":\"True\"}",
+  "time" : {
+    "start" : 1611911881871,
+    "stop" : 1611911882090,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f2d893b2f85d3fba",
+  "name" : "测试输入：{\"order\":1,\"page\":0,\"size\":12}",
+  "time" : {
+    "start" : 1611911881842,
+    "stop" : 1611911881868,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8d0813336829e7d0",
+  "name" : "测试输入：",
+  "time" : {
+    "start" : 1611911883100,
+    "stop" : 1611911883120,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3b9f4c11dfb443",
+  "name" : "测试输入：",
+  "time" : {
+    "start" : 1611911883071,
+    "stop" : 1611911883097,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "57a471d199d12904",
+  "name" : "测试输入：{\"label\":\"test01\",\"pid\":674}",
+  "time" : {
+    "start" : 1611911883047,
+    "stop" : 1611911883068,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "99cf6b4eb911a8c4",
+  "name" : "测试输入：{\"lable\":\"接口服务列表\"}",
+  "time" : {
+    "start" : 1611911883123,
+    "stop" : 1611911883153,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "72180a9aee841137",
+  "name" : "测试输入：{\"treeNodeIds\":\"1,645,678,694,696,697\"}",
+  "time" : {
+    "start" : 1611911882329,
+    "stop" : 1611911882429,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f0b6dbe742339c39",
+  "name" : "测试输入：{\"rid\":\"7929dabb24cbfff42b58231111a75ce4\"}",
+  "time" : {
+    "start" : 1611911881794,
+    "stop" : 1611911881818,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "893aa25d9d172978",
+  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
+  "time" : {
+    "start" : 1611911883724,
+    "stop" : 1611911883916,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "55eb5d9e7bf54a86",
+  "name" : "测试输入：",
+  "time" : {
+    "start" : 1611911883199,
+    "stop" : 1611911883204,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "90c91870c5a6b8a",
+  "name" : "测试输入：{\"page\":\"0\",\"size\":\"100000\",\"unitld\":\"8b3598fb71aec05d8c6d638fdd1c2548\"}",
+  "time" : {
+    "start" : 1611911882640,
+    "stop" : 1611911882658,
     "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e37dcdef0c814034",
+  "name" : "测试输入：{\"indexTypeId\":\"987\"}",
+  "time" : {
+    "start" : 1611911882432,
+    "stop" : 1611911882597,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "279eb8b7ae5151ee",
+  "name" : "测试输入：{\"label\":\"接口服务列表\",\"id\":\"84\"}",
+  "time" : {
+    "start" : 1611911883156,
+    "stop" : 1611911883172,
+    "duration" : 16
   },
   "status" : "passed",
   "severity" : "critical"

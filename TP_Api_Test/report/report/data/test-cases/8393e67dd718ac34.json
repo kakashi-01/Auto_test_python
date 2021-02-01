@@ -1,0 +1,122 @@
+{
+  "uid" : "8393e67dd718ac34",
+  "name" : "测试输入：{\"script\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nprint(\\\"ou ha yo\\\")\"}",
+  "fullName" : "test_Algorithm_Tool.TestAlgTool#test_Alg_model",
+  "historyId" : "2ad478eaa47455de675d55e9e7a2e491",
+  "time" : {
+    "start" : 1611911881763,
+    "stop" : 1611911881791,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611911881438,
+      "stop" : 1611911881737,
+      "duration" : 299
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611911881438,
+        "stop" : 1611911881737,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611911884311,
+      "stop" : 1611911884311,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "算法工具模块"
+  }, {
+    "name" : "story",
+    "value" : "算法工具接口"
+  }, {
+    "name" : "tag",
+    "value" : "算法模型执行"
+  }, {
+    "name" : "tag",
+    "value" : "Algorithm_Tool(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_Algorithm_Tool"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAlgTool"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "15012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Algorithm_Tool"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"script\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nprint(\\\"ou ha yo\\\")\"}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\": \"200\",\"msg\": \"success\",\"data\": null}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Algorithm_Tool(order=3)", "算法模型执行" ]
+  },
+  "source" : "8393e67dd718ac34.json",
+  "parameterValues" : [ "'{\"script\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nprint(\\\"ou ha yo\\\")\"}'", "'{\"code\": \"200\",\"msg\": \"success\",\"data\": null}'" ]
+}

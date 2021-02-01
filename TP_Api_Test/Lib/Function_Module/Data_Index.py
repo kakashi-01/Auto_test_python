@@ -36,7 +36,7 @@ class DataIndex:
     def Export_metadata(self, inData):
         login_url = f"{HOST}api/v1/admin/exportIndexMetaData?"
         payload = json.loads(inData)  # inData是字符串，转字典传入
-        r = self.s.get(login_url, params=payload)
+        r = requests.get(login_url, params=payload)
         # reps.encoding = 'unicode_escape'
         return r.status_code
 

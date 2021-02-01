@@ -7,65 +7,65 @@
       "name" : "TestAlgTool",
       "children" : [ {
         "name" : "测试输入：{\"page\":\"0\",\"size\":\"999\",\"receiver\":\"13422886337\",\"type\":\"HIVE_TASK_ALGO\",\"read\":\"false\"}",
-        "uid" : "8ab3432226a72e08",
+        "uid" : "eb6d28fe2bcee3c7",
         "parentUid" : "d5d2b85128c1b47a704e43b993de8b1f",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622107,
-          "stop" : 1611055622127,
-          "duration" : 20
+          "start" : 1611911881738,
+          "stop" : 1611911881760,
+          "duration" : 22
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"page\":\"0\",\"size\":\"999\",\"receiver\":\"13422886337\",\"type\":\"HIVE_TASK_ALGO\",\"read\":\"false\"}'", "'{\"code\":\"200\"}'" ]
       }, {
         "name" : "测试输入：{\"script\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nprint(\\\"ou ha yo\\\")\"}",
-        "uid" : "73e1dd687b251727",
+        "uid" : "8393e67dd718ac34",
         "parentUid" : "d5d2b85128c1b47a704e43b993de8b1f",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622130,
-          "stop" : 1611055622156,
-          "duration" : 26
+          "start" : 1611911881763,
+          "stop" : 1611911881791,
+          "duration" : 28
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"script\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nprint(\\\"ou ha yo\\\")\"}'", "'{\"code\": \"200\",\"msg\": \"success\",\"data\": null}'" ]
       }, {
         "name" : "测试输入：{\"rid\":\"7929dabb24cbfff42b58231111a75ce4\"}",
-        "uid" : "1574ead3e1a31048",
+        "uid" : "f0b6dbe742339c39",
         "parentUid" : "d5d2b85128c1b47a704e43b993de8b1f",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622159,
-          "stop" : 1611055622179,
-          "duration" : 20
+          "start" : 1611911881794,
+          "stop" : 1611911881818,
+          "duration" : 24
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"rid\":\"7929dabb24cbfff42b58231111a75ce4\"}'", "'{\"code\":\"200\"}'" ]
       }, {
         "name" : "测试输入：{\"id\":441,\"title\":\"test05\",\"type\":\"test\",\"content\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nimport pandas as pd\\n\\ndf = pd.DataFrame({'Animal': ['Falcon', 'Falcon', 'Parrot', 'Parrot'], 'Max Speed': [380, 370, 24, 26.]})\\n\\nprint(df.groupby(['Animal']).mean())\",\"createdBy\":\"13422886337\",\"createdDate\":\"2020-08-21 19:19:59\",\"label\":\"test05\",\"nodeType\":\"model\"}",
-        "uid" : "b4bbf9596ec51345",
+        "uid" : "fcd186e60473a5db",
         "parentUid" : "d5d2b85128c1b47a704e43b993de8b1f",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622182,
-          "stop" : 1611055622200,
-          "duration" : 18
+          "start" : 1611911881820,
+          "stop" : 1611911881839,
+          "duration" : 19
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"id\":441,\"title\":\"test05\",\"type\":\"test\",\"content\":\"# 函数建模支持使用Python脚本对平台数据进行分析，目前平台支持的Python包有pandas、shapely、numpy、shapely、geopandas\\n# 双击左侧平台算法目录树中的算法名称导入算法，双击右侧数据目录树中的数据表名导入数据表名称\\n# 如需保存结果数据，使用save_data函数将结果保存至“我的数据”中\\nimport pandas as pd\\n\\ndf = pd.DataFrame({'Animal': ['Falcon', 'Falcon', 'Parrot', 'Parrot'], 'Max Speed': [380, 370, 24, 26.]})\\n\\nprint(df.groupby(['Animal']).mean())\",\"createdBy\":\"13422886337\",\"createdDate\":\"2020-08-21 19:19:59\",\"label\":\"test05\",\"nodeType\":\"model\"}'", "'{\"code\":\"200\"}'" ]
       }, {
         "name" : "测试输入：{\"order\":1,\"page\":0,\"size\":12}",
-        "uid" : "ad12719d85f33dd7",
+        "uid" : "f2d893b2f85d3fba",
         "parentUid" : "d5d2b85128c1b47a704e43b993de8b1f",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622203,
-          "stop" : 1611055622228,
-          "duration" : 25
+          "start" : 1611911881842,
+          "stop" : 1611911881868,
+          "duration" : 26
         },
         "flaky" : false,
         "newFailed" : false,
@@ -80,25 +80,25 @@
       "name" : "TestDataIndex",
       "children" : [ {
         "name" : "测试输入：{\"sql\":\"SELECT * FROM t_vai_pedestrian_feature LIMIT 100\",\"isCn\":\"True\"}",
-        "uid" : "81ffb2f0f23e4048",
+        "uid" : "19f5be5735f8e25d",
         "parentUid" : "b3d6ff7715c4dbad74510c852a57316a",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622231,
-          "stop" : 1611055622480,
-          "duration" : 249
+          "start" : 1611911881871,
+          "stop" : 1611911882090,
+          "duration" : 219
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"sql\":\"SELECT * FROM t_vai_pedestrian_feature LIMIT 100\",\"isCn\":\"True\"}'", "'{\"code\":\"200\"}'" ]
       }, {
         "name" : "测试输入：{\"title\":\"xx\",\"titleEn\":\"task_balabla2\",\"layer\":\"010100\",\"parentId\":1662,\"treeType\":\"PERSONAGE\",\"createdBy\":\"XXX\",\"linkKey\":\"3f3ba3e0-3b4c-49dd-b02a-84ab26c132a4\"}",
-        "uid" : "c4185444d004aec3",
+        "uid" : "d99d7be0e4e22887",
         "parentUid" : "b3d6ff7715c4dbad74510c852a57316a",
         "status" : "skipped",
         "time" : {
-          "start" : 1611055622483,
-          "stop" : 1611055622483,
+          "start" : 1611911882094,
+          "stop" : 1611911882094,
           "duration" : 0
         },
         "flaky" : false,
@@ -106,39 +106,39 @@
         "parameters" : [ "'{\"title\":\"xx\",\"titleEn\":\"task_balabla2\",\"layer\":\"010100\",\"parentId\":1662,\"treeType\":\"PERSONAGE\",\"createdBy\":\"XXX\",\"linkKey\":\"3f3ba3e0-3b4c-49dd-b02a-84ab26c132a4\"}'", "'{\"code\":\"200\",\"msg\":\"success\",\"data\":\"保存成功\"}'" ]
       }, {
         "name" : "测试输入：{\"name\":\"行人特征表_2021年1月13日16时8分57秒\",\"ext\":\"csv\"}",
-        "uid" : "c3f68c16dfb7cb93",
+        "uid" : "d2226ef577719003",
         "parentUid" : "b3d6ff7715c4dbad74510c852a57316a",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622485,
-          "stop" : 1611055622714,
-          "duration" : 229
+          "start" : 1611911882096,
+          "stop" : 1611911882326,
+          "duration" : 230
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"name\":\"行人特征表_2021年1月13日16时8分57秒\",\"ext\":\"csv\"}'", "'{\"code\":\"200\"}'" ]
       }, {
         "name" : "测试输入：{\"treeNodeIds\":\"1,645,678,694,696,697\"}",
-        "uid" : "72567d4aff406983",
+        "uid" : "72180a9aee841137",
         "parentUid" : "b3d6ff7715c4dbad74510c852a57316a",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622717,
-          "stop" : 1611055622832,
-          "duration" : 115
+          "start" : 1611911882329,
+          "stop" : 1611911882429,
+          "duration" : 100
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"treeNodeIds\":\"1,645,678,694,696,697\"}'", "'{\"code\":\"200\"}'" ]
       }, {
         "name" : "测试输入：{\"indexTypeId\":\"987\"}",
-        "uid" : "b81bf7227bfb7779",
+        "uid" : "e37dcdef0c814034",
         "parentUid" : "b3d6ff7715c4dbad74510c852a57316a",
         "status" : "passed",
         "time" : {
-          "start" : 1611055622835,
-          "stop" : 1611055623026,
-          "duration" : 191
+          "start" : 1611911882432,
+          "stop" : 1611911882597,
+          "duration" : 165
         },
         "flaky" : false,
         "newFailed" : false,
@@ -148,43 +148,257 @@
     } ],
     "uid" : "098636b8684a57ba5ad5ca0170413b3a"
   }, {
+    "name" : "test_Data_Service",
+    "children" : [ {
+      "name" : "TestDataService",
+      "children" : [ {
+        "name" : "测试输入：{\"size\":\"10\",\"page\":\"0\"}",
+        "uid" : "8bc11dea64ae4484",
+        "parentUid" : "ded43676327680e0760a8b7bae3173dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911882600,
+          "stop" : 1611911882613,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"size\":\"10\",\"page\":\"0\"}'", "'{\"code\":\"200\"}'" ]
+      }, {
+        "name" : "测试输入：{\"size\":\"10\",\"page\":\"0\"}",
+        "uid" : "83401f3c8ed90e1b",
+        "parentUid" : "ded43676327680e0760a8b7bae3173dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911882615,
+          "stop" : 1611911882638,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"size\":\"10\",\"page\":\"0\"}'", "'{\"code\":\"200\"}'" ]
+      }, {
+        "name" : "测试输入：{\"page\":\"0\",\"size\":\"100000\",\"unitld\":\"8b3598fb71aec05d8c6d638fdd1c2548\"}",
+        "uid" : "90c91870c5a6b8a",
+        "parentUid" : "ded43676327680e0760a8b7bae3173dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911882640,
+          "stop" : 1611911882658,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"page\":\"0\",\"size\":\"100000\",\"unitld\":\"8b3598fb71aec05d8c6d638fdd1c2548\"}'", "'{\"code\":\"200\"}'" ]
+      } ],
+      "uid" : "ded43676327680e0760a8b7bae3173dd"
+    } ],
+    "uid" : "6d35c05ecacad18a091cdeddc98ef644"
+  }, {
+    "name" : "test_Data_element_management",
+    "children" : [ {
+      "name" : "TestDataElementManagement",
+      "children" : [ {
+        "name" : "测试输入：",
+        "uid" : "d65f2d19e232240b",
+        "parentUid" : "82366c61592369e8e22ece712b376dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911882661,
+          "stop" : 1611911882753,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'{\"code\": \"200\"}'" ]
+      }, {
+        "name" : "测试输入：{\"label\":\"test01\",\"pid\":674}",
+        "uid" : "57a471d199d12904",
+        "parentUid" : "82366c61592369e8e22ece712b376dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883047,
+          "stop" : 1611911883068,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"label\":\"test01\",\"pid\":674}'", "'{\"code\": \"200\"}'" ]
+      }, {
+        "name" : "测试输入：",
+        "uid" : "3b9f4c11dfb443",
+        "parentUid" : "82366c61592369e8e22ece712b376dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883071,
+          "stop" : 1611911883097,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'{\"code\": \"200\",\"msg\": \"成功0个，失败0个\",\"data\": []}'" ]
+      } ],
+      "uid" : "82366c61592369e8e22ece712b376dfc"
+    } ],
+    "uid" : "116798600ec196d48ecdde0bcf1a4af4"
+  }, {
+    "name" : "test_Data_interface_service",
+    "children" : [ {
+      "name" : "TestDataInterfaceService",
+      "children" : [ {
+        "name" : "测试输入：",
+        "uid" : "8d0813336829e7d0",
+        "parentUid" : "b3df22ac1dad0dfd3fbc0c7da9c60827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883100,
+          "stop" : 1611911883120,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'{\"code\":\"200\"}'" ]
+      }, {
+        "name" : "测试输入：{\"lable\":\"接口服务列表\"}",
+        "uid" : "99cf6b4eb911a8c4",
+        "parentUid" : "b3df22ac1dad0dfd3fbc0c7da9c60827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883123,
+          "stop" : 1611911883153,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"lable\":\"接口服务列表\"}'", "'{\"code\":\"200\"}'" ]
+      }, {
+        "name" : "测试输入：{\"label\":\"接口服务列表\",\"id\":\"84\"}",
+        "uid" : "279eb8b7ae5151ee",
+        "parentUid" : "b3df22ac1dad0dfd3fbc0c7da9c60827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883156,
+          "stop" : 1611911883172,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"label\":\"接口服务列表\",\"id\":\"84\"}'", "'{\"code\":\"200\"}'" ]
+      }, {
+        "name" : "测试输入：{\"treeDataId\":1}",
+        "uid" : "6452cda12f40bb97",
+        "parentUid" : "b3df22ac1dad0dfd3fbc0c7da9c60827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883175,
+          "stop" : 1611911883188,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"treeDataId\":1}'", "'{\"code\":\"200\"}'" ]
+      } ],
+      "uid" : "b3df22ac1dad0dfd3fbc0c7da9c60827"
+    } ],
+    "uid" : "3a5b9c5e0218983f2a97a76bc00059fc"
+  }, {
+    "name" : "test_System_Management",
+    "children" : [ {
+      "name" : "TestSystemManagement",
+      "children" : [ {
+        "name" : "测试输入：{\"username\":\"17688701459\",\"password\":\"Sutpc@2020\",\"checkPassword\":\"Sutpc@2020\",\"cname\":\"冯建伟\",\"mail\":\"fengjianwei@sutpc.com\",\"phone\":\"17688701458\"}",
+        "uid" : "60667c2f9aa044e0",
+        "parentUid" : "738e6f6733a5608209f36ad10a431d6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883190,
+          "stop" : 1611911883196,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"username\":\"17688701459\",\"password\":\"Sutpc@2020\",\"checkPassword\":\"Sutpc@2020\",\"cname\":\"冯建伟\",\"mail\":\"fengjianwei@sutpc.com\",\"phone\":\"17688701458\"}'", "'{\"code\":409}'" ]
+      }, {
+        "name" : "测试输入：",
+        "uid" : "55eb5d9e7bf54a86",
+        "parentUid" : "738e6f6733a5608209f36ad10a431d6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883199,
+          "stop" : 1611911883204,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'{\"code\":\"200\"}'" ]
+      }, {
+        "name" : "测试输入：{\"fname\": \"测试组\",\"description\": \"系统管理员\"}",
+        "uid" : "47e84994131f690a",
+        "parentUid" : "738e6f6733a5608209f36ad10a431d6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883207,
+          "stop" : 1611911883212,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"fname\": \"测试组\",\"description\": \"系统管理员\"}'", "'{\"code\": 409,\"message\": \"角色已存在！\"}'" ]
+      }, {
+        "name" : "测试输入：",
+        "uid" : "84f7d744a23c7a7c",
+        "parentUid" : "738e6f6733a5608209f36ad10a431d6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611911883215,
+          "stop" : 1611911883220,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'{\"code\":\"200\"}'" ]
+      } ],
+      "uid" : "738e6f6733a5608209f36ad10a431d6f"
+    } ],
+    "uid" : "28eab5d0a21c6ba1007433bd447c6929"
+  }, {
     "name" : "test_login",
     "children" : [ {
       "name" : "TestLogin",
       "children" : [ {
         "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
-        "uid" : "79be1bf089f03bc4",
+        "uid" : "fdd8d6f55dc5c9b1",
         "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1611055623030,
-          "stop" : 1611055623331,
-          "duration" : 301
+          "start" : 1611911883223,
+          "stop" : 1611911883512,
+          "duration" : 289
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}'", "'{\"token_type\":\"bearer\",\"expires_in\": 35999,\"scope\": \"all\",\"uid\": \"3b72468c8a60488d8258a9b2033b4baa\"}'" ]
       }, {
         "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"\",\"imageCode\":\"9527\"}",
-        "uid" : "77299be81248426b",
+        "uid" : "1a779aca6180f265",
         "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
         "status" : "passed",
         "time" : {
-          "start" : 1611055623466,
-          "stop" : 1611055623566,
-          "duration" : 100
+          "start" : 1611911883515,
+          "stop" : 1611911883618,
+          "duration" : 103
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"\",\"imageCode\":\"9527\"}'", "'{\"error\": \"unauthorized\",\"error_description\": \"用户名密码错误!\"}'" ]
       }, {
         "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2021\",\"imageCode\":\"9527\"}",
-        "uid" : "e6c3ac376a6ec7b5",
+        "uid" : "4eb5b7e900e3a3e0",
         "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
         "status" : "passed",
         "time" : {
-          "start" : 1611055623570,
-          "stop" : 1611055623670,
+          "start" : 1611911883621,
+          "stop" : 1611911883721,
           "duration" : 100
         },
         "flaky" : false,
@@ -192,25 +406,25 @@
         "parameters" : [ "'{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2021\",\"imageCode\":\"9527\"}'", "'{\"error\": \"unauthorized\",\"error_description\": \"用户名密码错误!\"}'" ]
       }, {
         "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
-        "uid" : "ce4fd1b92bc4ce58",
+        "uid" : "893aa25d9d172978",
         "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
         "status" : "passed",
         "time" : {
-          "start" : 1611055623674,
-          "stop" : 1611055623864,
-          "duration" : 190
+          "start" : 1611911883724,
+          "stop" : 1611911883916,
+          "duration" : 192
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}'", "'{\"error\": \"invalid_grant\",\"error_description\": \"Bad credentials\"}'" ]
       }, {
         "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"\",\"imageCode\":\"9527\"}",
-        "uid" : "702003289b4c506c",
+        "uid" : "5e494328cb6c1a65",
         "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
         "status" : "passed",
         "time" : {
-          "start" : 1611055623868,
-          "stop" : 1611055624059,
+          "start" : 1611911883919,
+          "stop" : 1611911884110,
           "duration" : 191
         },
         "flaky" : false,
@@ -218,30 +432,17 @@
         "parameters" : [ "'{\"grant_type\":\"password\",\"username\":\"\",\"password\":\"\",\"imageCode\":\"9527\"}'", "'{\"error\": \"invalid_grant\",\"error_description\": \"Bad credentials\"}'" ]
       }, {
         "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701450\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
-        "uid" : "9b380177cd57ede1",
+        "uid" : "79781c8dff34d078",
         "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
         "status" : "passed",
         "time" : {
-          "start" : 1611055624062,
-          "stop" : 1611055624262,
-          "duration" : 200
+          "start" : 1611911884113,
+          "stop" : 1611911884309,
+          "duration" : 196
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'{\"grant_type\":\"password\",\"username\":\"17688701450\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}'", "'{\"error\": \"invalid_grant\",\"error_description\": \"Bad credentials\"}'" ]
-      }, {
-        "name" : "test_login_image",
-        "uid" : "6338e538e04142e3",
-        "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
-        "status" : "broken",
-        "time" : {
-          "start" : 1611055624265,
-          "stop" : 1611055624265,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
       } ],
       "uid" : "e75455cf76bd95e9050e793836e5ab99"
     } ],

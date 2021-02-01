@@ -1,0 +1,122 @@
+{
+  "uid" : "279eb8b7ae5151ee",
+  "name" : "测试输入：{\"label\":\"接口服务列表\",\"id\":\"84\"}",
+  "fullName" : "test_Data_interface_service.TestDataInterfaceService#test_Interface_group_editing",
+  "historyId" : "2074c9f9440c187168913f55597ef5df",
+  "time" : {
+    "start" : 1611911883156,
+    "stop" : 1611911883172,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611911881438,
+      "stop" : 1611911881737,
+      "duration" : 299
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611911881438,
+        "stop" : 1611911881737,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611911884311,
+      "stop" : 1611911884311,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "story",
+    "value" : "数据接口服务接口"
+  }, {
+    "name" : "feature",
+    "value" : "数据接口服务模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "接口分组编辑"
+  }, {
+    "name" : "tag",
+    "value" : "Data_interface_service(order=6)"
+  }, {
+    "name" : "suite",
+    "value" : "test_Data_interface_service"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataInterfaceService"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "15012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Data_interface_service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"label\":\"接口服务列表\",\"id\":\"84\"}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\":\"200\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "接口分组编辑", "Data_interface_service(order=6)" ]
+  },
+  "source" : "279eb8b7ae5151ee.json",
+  "parameterValues" : [ "'{\"label\":\"接口服务列表\",\"id\":\"84\"}'", "'{\"code\":\"200\"}'" ]
+}

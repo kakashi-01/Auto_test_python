@@ -1,0 +1,122 @@
+{
+  "uid" : "8d0813336829e7d0",
+  "name" : "测试输入：",
+  "fullName" : "test_Data_interface_service.TestDataInterfaceService#test_Interface_query",
+  "historyId" : "fa28658824b58d97ae9ecf7f23d9be21",
+  "time" : {
+    "start" : 1611911883100,
+    "stop" : 1611911883120,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611911881438,
+      "stop" : 1611911881737,
+      "duration" : 299
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611911881438,
+        "stop" : 1611911881737,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611911884311,
+      "stop" : 1611911884311,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "story",
+    "value" : "数据接口服务接口"
+  }, {
+    "name" : "feature",
+    "value" : "数据接口服务模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "API接口查询"
+  }, {
+    "name" : "tag",
+    "value" : "Data_interface_service(order=6)"
+  }, {
+    "name" : "suite",
+    "value" : "test_Data_interface_service"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataInterfaceService"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "15012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Data_interface_service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "''"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\":\"200\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Data_interface_service(order=6)", "API接口查询" ]
+  },
+  "source" : "8d0813336829e7d0.json",
+  "parameterValues" : [ "''", "'{\"code\":\"200\"}'" ]
+}

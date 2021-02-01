@@ -1,0 +1,122 @@
+{
+  "uid" : "6452cda12f40bb97",
+  "name" : "测试输入：{\"treeDataId\":1}",
+  "fullName" : "test_Data_interface_service.TestDataInterfaceService#test_API_time_query",
+  "historyId" : "892b252f9f3c73e7092c5a83cda27f17",
+  "time" : {
+    "start" : 1611911883175,
+    "stop" : 1611911883188,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611911881438,
+      "stop" : 1611911881737,
+      "duration" : 299
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611911881438,
+        "stop" : 1611911881737,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611911884311,
+      "stop" : 1611911884311,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "story",
+    "value" : "数据接口服务接口"
+  }, {
+    "name" : "feature",
+    "value" : "数据接口服务模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "API时耗列表查询"
+  }, {
+    "name" : "tag",
+    "value" : "Data_interface_service(order=6)"
+  }, {
+    "name" : "suite",
+    "value" : "test_Data_interface_service"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataInterfaceService"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "15012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Data_interface_service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"treeDataId\":1}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\":\"200\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Data_interface_service(order=6)", "API时耗列表查询" ]
+  },
+  "source" : "6452cda12f40bb97.json",
+  "parameterValues" : [ "'{\"treeDataId\":1}'", "'{\"code\":\"200\"}'" ]
+}

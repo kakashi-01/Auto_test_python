@@ -1,0 +1,122 @@
+{
+  "uid" : "60667c2f9aa044e0",
+  "name" : "测试输入：{\"username\":\"17688701459\",\"password\":\"Sutpc@2020\",\"checkPassword\":\"Sutpc@2020\",\"cname\":\"冯建伟\",\"mail\":\"fengjianwei@sutpc.com\",\"phone\":\"17688701458\"}",
+  "fullName" : "test_System_Management.TestSystemManagement#test_Add_user",
+  "historyId" : "49cbeb7449ef0bbaa96be4f34678afdf",
+  "time" : {
+    "start" : 1611911883190,
+    "stop" : 1611911883196,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1611911881438,
+      "stop" : 1611911881737,
+      "duration" : 299
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1611911881438,
+        "stop" : 1611911881737,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1611911884311,
+      "stop" : 1611911884311,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "story",
+    "value" : "系统管理接口"
+  }, {
+    "name" : "feature",
+    "value" : "系统管理模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "System_Management(order=5)"
+  }, {
+    "name" : "tag",
+    "value" : "添加用户"
+  }, {
+    "name" : "suite",
+    "value" : "test_System_Management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystemManagement"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "15012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_System_Management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"username\":\"17688701459\",\"password\":\"Sutpc@2020\",\"checkPassword\":\"Sutpc@2020\",\"cname\":\"冯建伟\",\"mail\":\"fengjianwei@sutpc.com\",\"phone\":\"17688701458\"}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"code\":409}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "System_Management(order=5)", "添加用户" ]
+  },
+  "source" : "60667c2f9aa044e0.json",
+  "parameterValues" : [ "'{\"username\":\"17688701459\",\"password\":\"Sutpc@2020\",\"checkPassword\":\"Sutpc@2020\",\"cname\":\"冯建伟\",\"mail\":\"fengjianwei@sutpc.com\",\"phone\":\"17688701458\"}'", "'{\"code\":409}'" ]
+}

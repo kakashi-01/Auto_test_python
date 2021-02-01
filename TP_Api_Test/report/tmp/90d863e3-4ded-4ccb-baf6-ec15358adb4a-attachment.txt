@@ -1,0 +1,3 @@
+[31m[1mERROR   [0m root:test_Data_element_management.py:47 assert '500' == '200'
+  - 200
+  + 500

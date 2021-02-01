@@ -5,12 +5,10 @@
 import json
 import allure
 import pytest
-import requests
 from TP_Api_Test.Lib.Function_Module.Data_Index import DataIndex
-from TP_Api_Test.tools.getExcelData import get_excelData, set_excelData
+from TP_Api_Test.tools.getExcelData import get_excelData
 # from tools.getYamlData import get_yaml_data
 from TP_Api_Test.tools.logBasic import logger
-from TP_Api_Test.Lib.Login_Module.login_token import Loginclass
 log = logger()  # 调用自定义封装的log函数
 
 
@@ -66,9 +64,9 @@ class TestDataIndex:  # 测试用例类
     @pytest.mark.元数据导出  # 加标签
     @allure.title("测试输入：{inData}")
     @pytest.mark.parametrize('inData,respData', get_excelData('2指数模块', 5, 5))
-    def test_Export_metadata(self, login_fixture, inData, respData):
-        #s = login_fixture
-        res = DataIndex(login_fixture).Export_metadata(inData)
+    def test_Export_metadata(self, inData, respData):
+        # 此接口不需要鉴权，所以可不传login_fixture.功能函数需要加上requests请求（Data_Index.py中）
+        res = DataIndex(self).Export_metadata(inData)
         log.info('------##############------------')
         try:
             assert str(res) == json.loads(respData)["code"]
@@ -93,7 +91,7 @@ class TestDataIndex:  # 测试用例类
     @allure.title("测试输入：{inData}")
     @pytest.mark.parametrize('inData,respData', get_excelData('2指数模块', 7, 7))
     def test_Edit_metadata(self, login_fixture, inData, respData):
-        #s = login_fixture
+        # s = login_fixture
         res = DataIndex(login_fixture).Edit_metadata(inData)
         log.info('------##############------------')
         try:

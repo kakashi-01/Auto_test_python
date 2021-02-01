@@ -1,0 +1,77 @@
+{
+  "uid" : "fdd8d6f55dc5c9b1",
+  "name" : "测试输入：{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}",
+  "fullName" : "test_login.TestLogin#test_login_a",
+  "historyId" : "51be2a17e2af5f82c819fdded579b0ed",
+  "time" : {
+    "start" : 1611911883223,
+    "stop" : 1611911883512,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "TP系统"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "Login(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "正常账户密码登陆"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5R42TFK"
+  }, {
+    "name" : "thread",
+    "value" : "15012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}'"
+  }, {
+    "name" : "respData",
+    "value" : "'{\"token_type\":\"bearer\",\"expires_in\": 35999,\"scope\": \"all\",\"uid\": \"3b72468c8a60488d8258a9b2033b4baa\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "正常账户密码登陆", "Login(order=1)" ]
+  },
+  "source" : "fdd8d6f55dc5c9b1.json",
+  "parameterValues" : [ "'{\"grant_type\":\"password\",\"username\":\"17688701458\",\"password\":\"Sutpc@2020\",\"imageCode\":\"9527\"}'", "'{\"token_type\":\"bearer\",\"expires_in\": 35999,\"scope\": \"all\",\"uid\": \"3b72468c8a60488d8258a9b2033b4baa\"}'" ]
+}

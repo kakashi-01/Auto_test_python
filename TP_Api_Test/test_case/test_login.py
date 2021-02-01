@@ -22,7 +22,7 @@ class TestLogin:
     @pytest.mark.正常账户密码登陆
     @allure.title("测试输入：{inData}")
     @pytest.mark.parametrize('inData,respData', get_excelData('1登录模块', 2, 2))
-    def test_login(self, inData, respData):
+    def test_login_a(self, inData, respData):
         # 1- 调用--封装模块
         res = Login_TP().api_login(inData)
         log.info('------##############------------')
@@ -40,7 +40,7 @@ class TestLogin:
     @pytest.mark.异常密码登陆
     @allure.title("测试输入：{inData}")
     @pytest.mark.parametrize('inData,respData', get_excelData('1登录模块', 3, 4))
-    def test_login(self, inData, respData):
+    def test_login_s1(self, inData, respData):
         # 1- 调用--封装模块
         res = Login_TP().api_login_p(inData)
         log.info('------##############------------')
@@ -54,7 +54,7 @@ class TestLogin:
     @pytest.mark.异常账户登陆
     @allure.title("测试输入：{inData}")
     @pytest.mark.parametrize('inData,respData', get_excelData('1登录模块', 5, 7))
-    def test_login(self, inData, respData):
+    def test_login_s2(self, inData, respData):
         # 1- 调用--封装模块
         res = Login_TP().api_login_u(inData)
         log.info('------##############------------')
@@ -66,12 +66,12 @@ class TestLogin:
             raise err  # 抛出异常
 
 
-    @allure.story('登录界面')
-    @allure.severity('critical')
-    @allure.description('自动截图')
-    def test_login_image(self):
-        allure.attach.file(r'../report/test.jpg','我是附件截图的名字',
-        attachment_type=allure.attachment_type.JPG)
+    # @allure.story('登录界面')
+    # @allure.severity('critical')
+    # @allure.description('自动截图')
+    # def test_login_image(self):
+    #     allure.attach.file(r'../report/test.jpg','我是附件截图的名字',
+    #     attachment_type=allure.attachment_type.JPG)
 
 # if __name__ == '__main__':
 #     for one in os.listdir('../report/tmp'):  # 列出对应文件夹的数据
