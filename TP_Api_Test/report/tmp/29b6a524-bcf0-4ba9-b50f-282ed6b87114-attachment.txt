@@ -1,2 +1,0 @@
-[1m[31mERROR   [0m root:test_System_Management.py:55 assert '409' == 409
- +  where '409' = str(409)
